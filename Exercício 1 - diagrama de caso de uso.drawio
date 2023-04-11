@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2023-04-11T01:06:26.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="O3xtxtDWmpBk1C2RJzIE" version="21.1.5" type="github">
+  <diagram name="Página-1" id="7Vi-GyidPr399k-hqDmP">
+    <mxGraphModel dx="1377" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-1" value="funcionário/ atendente" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-2" value="Manter salas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-4" value="Manter informações dos filmes em cartaz" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.014;exitY=0.371;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248" y="118" as="sourcePoint" />
+            <mxPoint x="130" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-6" value="Manter sessões" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262" y="176" as="sourcePoint" />
+            <mxPoint x="130" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-8" value="Manter ingressos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.3;exitY=0.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="229" as="sourcePoint" />
+            <mxPoint x="130" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-11" value="cliente" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="670" y="515" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-12" value="Vender ingressos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="301" as="sourcePoint" />
+            <mxPoint x="110" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-17" value="Comprar ingressos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8Dnvnueg_8cUG5QtnU9-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="510" as="sourcePoint" />
+            <mxPoint x="568" y="430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-21" value="Visualizar informações sobre filmes e sessões" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="585" as="sourcePoint" />
+            <mxPoint x="590" y="470" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-23" value="Selecionar sessão" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-24" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="665" as="sourcePoint" />
+            <mxPoint x="600" y="550" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-25" value="Escolher assentos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Dnvnueg_8cUG5QtnU9-26" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8Dnvnueg_8cUG5QtnU9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="662" as="sourcePoint" />
+            <mxPoint x="600" y="640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
